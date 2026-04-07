@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root{
+    /* Cores */
+    --cor-fundo:#ececec;
+    --cor-herader:#004d40;
+    --cor-footer:   #009688;
+    --cor-texto:   #222;
+    --cor-borda:   #cecece;
+    --cor-sombra:  #ccc;
+    --cor-branca:  #fff;
+
+    /* Fontes */
+    --fonte-padrão: Arial, Tahoma, Verdana;
+
+    /* tamanhos */
+    --font-base: 18px;
+    --line-base: 28px;
+    --radius: 5px;
+
+    /* Espaçamento */
+    --espaco-padrao: 10px;
+}
+/* configura global(reset da pagina) */
+*{
+    margin:  0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+    font-size: var(font-base);
+    line-height: var(--line-base);
+
+}
+
+html, body{
+    height: 100%;
+    background: var (--cor-fundo);
+}
