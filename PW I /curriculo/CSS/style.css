@@ -57,14 +57,14 @@ header{
 h1{
     text-align: center;
     line-height: 50px;
-    fort-sizi: 25px;
+    font-size: 25px;
     color: var(--cor-branca);
 }
 
 nav a{
     text-decoration: nome;
     color: var(--cor-texto);
-    fort-weigh: bold;
+    font-weight: bold;
 }
 
 nav{
