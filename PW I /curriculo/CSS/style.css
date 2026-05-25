@@ -9,9 +9,11 @@
     --cor-borda:   #cecece;
     --cor-sombra:  #ccc;
     --cor-branca:  #fff;
+    --bg-image: url("..imagens/clara.avif");
+    
 
     /* Fontes */
-    --fonte-padrão: Arial, Tahoma, Verdana;
+    --fonte-padrao: Arial, Tahoma, Verdana;
 
     /* tamanhos */
     --font-base: 18px;
@@ -33,7 +35,14 @@
 
 html, body{
     height: 100%;
-    background: var (--cor-fundo);
+    /* background: var (--cor-fundo); */
+    background:
+       linear-gradient(
+        rgba(255,255, 255 var(--overlay-opacity)),
+        rgba(255,255, 255 var(--overlay-opacity))
+       )
+       var(--bg-image) no-repeat center center fixed;
+    background-size: cover;
 }
 
 main{
