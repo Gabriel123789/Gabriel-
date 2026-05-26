@@ -9,8 +9,8 @@
     --cor-borda:   #cecece;
     --cor-sombra:  #ccc;
     --cor-branca:  #fff;
-    --bg-image: url("..imagens/clara.avif");
-    
+    --bg-image: url("..imagens/clara.jpg");
+    --overlay-opacity: 0.7;
 
     /* Fontes */
     --fonte-padrao: Arial, Tahoma, Verdana;
@@ -37,11 +37,11 @@ html, body{
     height: 100%;
     /* background: var (--cor-fundo); */
     background:
-       linear-gradient(
+    linear-gradient(
         rgba(255,255, 255 var(--overlay-opacity)),
         rgba(255,255, 255 var(--overlay-opacity))
-       )
-       var(--bg-image) no-repeat center center fixed;
+)
+        var(--bg-image) no-repeat center center fixed;
     background-size: cover;
 }
 
